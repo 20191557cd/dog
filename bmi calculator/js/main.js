@@ -1,0 +1,4 @@
+function navToMenu(){
+	console.log("triggered");
+}
+gsap.to(".logo",{duration: 2, y: -50, opacity: 0, onComplete: navToMenu});
